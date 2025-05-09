@@ -3,7 +3,7 @@
 
    If you need help or upgraded version, plz contact here: 
    
-   [Telegram](https://t.me/sealdev)
+[Twitter](https://x.com/0xmooncity)
 
 ## Features
 - **Automated Trading:** Automatically buy the latest coins on Pump.Fun and sell them once your target profit percentage or stop-loss percentage is reached.
