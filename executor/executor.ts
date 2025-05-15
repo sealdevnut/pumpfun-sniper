@@ -125,7 +125,7 @@ export const onBundleResult = (c: SearcherClient): Promise<number> => {
     setTimeout(() => {
       resolve(first)
       isResolved = true
-    }, 30000)
+    }, 20000)
 
     c.onBundleResult(
       (result: any) => {
