@@ -238,7 +238,7 @@ export const buy = async (
   try {
     const transactions: VersionedTransaction[] = []
 
-    // console.log("🚀 ~ buyerAta:", buyerAta.toBase58())
+    console.log("🚀 ~ buyerAta:", buyerAta.toBase58())
 
     let ixs: TransactionInstruction[] = [
       ComputeBudgetProgram.setComputeUnitPrice({ microLamports: Math.floor(txFee * 10 ** 9 / computeUnit * 10 ** 6) }),
